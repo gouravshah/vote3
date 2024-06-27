@@ -5,10 +5,10 @@ import socket
 import random
 import json
 
-option_a = os.getenv('OPTION_A', "Blue/Green")
-option_b = os.getenv('OPTION_B', "Canary")
+option_a = os.getenv('OPTION_A', "Argo Workflow")
+option_b = os.getenv('OPTION_B', "Jenkins CI")
 hostname = socket.gethostname()
-version = 'v2.0.2'
+version = 'v2.0.3'
 
 app = Flask(__name__)
 
